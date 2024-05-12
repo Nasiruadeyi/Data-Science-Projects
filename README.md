@@ -3,7 +3,9 @@
 
 
 
+
 **TASK 2:** The project involves applying a machine learning clustering algorithm to the country_data.csv dataset, which contains information about countries' child mortality rates, exports, health spending, and other relevant features. The objective is to explore the dataset using clustering techniques, visualize the resulting clusters, and analyze the findings. The analysis draws conclusions based on the clusters, considering factors such as the inclusion or exclusion of specific features and their impact on the clustering results. Additionally, the project aims to provide insights and recommendations within the context of the data, based on the clustering outcomes.
+
 
 
 
@@ -15,4 +17,46 @@
 
 
 
+
 **TASK 4:**  This code performs K-means clustering on a small 2D dataset (X) containing 8 data points. It imports necessary libraries, creates the dataset, initializes the KMeans model with 3 clusters, and fits the data to the model. The code then retrieves the cluster centers, visualizes the clustered data points along with the cluster centers using a scatter plot, and highlights a test point's cluster assignment. Additionally, it saves the generated plot as an image file named "cluster_plot.png".
+
+
+
+
+
+
+
+
+**TASK 5:** The solution involves performing K-Means clustering on a dataset called 'country_data.csv' containing various features related to different countries. It loads the dataset, performs data exploration, and preprocesses the data by removing the 'country' column. The code then applies K-Means clustering with 4 clusters on two selected features ('child_mort' and 'exports'), prints the cluster centroids, and visualizes the clustering results through scatter plots. Additionally, it applies K-Means clustering with 2 clusters on the entire dataset, obtains the cluster labels and centers, and creates scatter plots to visualize the clustering results for different pairs of features, coloring the data points based on their assigned cluster labels.
+
+
+
+
+
+
+
+**TASK 6:** The solution involves applying four different classification algorithms, namely Support Vector Machine (SVM), Decision Tree (DT), Random Forest (RF), and K-Nearest Neighbors (KNN), to the 'adult_WS#3' dataset for predicting the 'income' column. The dataset will be preprocessed, which includes handling missing values, encoding categorical variables, and scaling numerical features. Each classifier will be trained and evaluated using techniques like train-test split. The performance of the classifiers will be assessed by calculating the confusion matrix and various evaluation metrics such as accuracy, precision, recall, and F1-score. Additionally, feature importance values will be extracted from the models (e.g., feature_importances_ for tree-based models or coefficients for linear models).
+
+
+
+
+
+
+
+**TASK 7:** The solution involves applying K-Means and Hierarchical clustering techniques to three selected columns of the 'adult_WS4' dataset, as well as performing Principal Component Analysis (PCA) on the dataset. First, the optimal number of clusters for K-Means and Hierarchical clustering will be determined using methods like the elbow method and dendrograms. Then, PCA will be applied to the dataset, and the first two principal components will be extracted (n_components=2). After obtaining the principal components, a scatter plot will be created to visualize the dataset's instances in the reduced two-dimensional space, colored by the two classes of the 'income' column. This visualization will help identify potential patterns or separations between the income classes based on the first two principal components. 
+
+
+
+
+
+
+
+**TASK 8:** The solution involves the 'Portugal_online_retail' datasets, applying the Apriori algorithm to the dataset. The Apriori algorithm is a popular association rule mining technique used to discover frequent itemsets and association rules in transaction data.
+
+
+
+
+
+
+
+**TASK 9:** The solution involves preprocessing the 'Tweets' dataset, followed by training and evaluating six different classifiers, such as Logistic Regression, Naive Bayes, Decision Tree, Random Forest, Support Vector Machines, and Neural Networks, on the dataset. The preprocessing steps include tokenization, stop-word removal, and vectorization of the text data. Each classifier was trained on the preprocessed data, and their performance was evaluated using various metrics like accuracy, precision, recall, F1-score, and confusion matrix.
